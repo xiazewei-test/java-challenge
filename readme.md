@@ -42,3 +42,24 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 - Appropriate usage of packages
 - Is the application running as expected
 - No performance issues
+
+---
+Sorry I am really busy on a huge project recently, so I only have several hours to do this challenge after work.  
+
+
+### What I did
+- Add tests with Spock framework  
+- Changed syntax in services, controller files, including lombok and validation  
+- Added exception and [GlobalExceptionHandler.java](src/main/java/jp/co/axa/apidemo/controllers/GlobalExceptionHandler.java)  
+- Added caching logic for database calls  
+- Added Java Doc in [EmployeeServiceImpl.java](src/main/java/jp/co/axa/apidemo/services/EmployeeServiceImpl.java) and some other files  
+- Fix save, update, delete logic in [EmployeeServiceImpl.java](src/main/java/jp/co/axa/apidemo/services/EmployeeServiceImpl.java)  
+- Use log instead of System.print  
+
+
+### What will I do if I have more time
+- Add authentication  
+- Manage response with managed response code, e.g., Created, Unauthorized ...  
+- Add more tests, including edge test, abnormal test and tests for controller  
+- Write more documents and comments  
+- Add more validation for request value, e.g., regular expression for salary, name and department  
